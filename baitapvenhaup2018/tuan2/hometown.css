@@ -1,0 +1,28 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', 'Arial'; /* initial font */
+
+}
+#top-bar{
+	width: 100%;
+	background: #e60000; /* my red */
+	border-bottom: 2px, #f2f2f2; /* lighter darker */
+	height: 80px;
+}
+.normal-wrapper{
+	width: 900px;
+	margin: 0 auto;
+	padding: 15px 40px;
+	background: gray; /* gray */
+	overflow: auto;
+}
+.logo-icon{
+	color: white;
+	font-size: 60pt;
+	float: left;
+}
+h1{
+	float: left;
+	margin: 21px 0 0 25px;
+}
