@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;
+	text-decoration: none;
 }
 #Header{
 	width: 97%;
@@ -9,7 +10,6 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 5px;
-	text-decoration: none;
 }	
 ol li.Header{
 	font-weight: bold;
