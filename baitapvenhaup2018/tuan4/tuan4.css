@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#Header{
+	width: 97%;
+	background: #99ccff;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-decoration: none;
+}	
+ol li.Header{
+	font-weight: bold;
+	font-size: 25px;
+}
+ol li.brand{
+	font-size: 19px;
+	background: #cce6ff;
+	width: 15%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+}
+ol li.globalNav{
+	font-size: 19px;
+	background: #cce6ff;
+	width: 56%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+}
+ol li.tools{
+	font-size: 19px;
+	background: #cce6ff;
+	width: 25%;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	text-align: center;
+}
+#Hero{
+	width: 73%;
+	text-decoration: none;
+	float: left;
+	background: #99ccff;
+	height: 170px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+ol li.hero{
+	font-weight: bold;
+	font-size: 25px;
+}
+ol li.herofeature{
+	font-size: 19px;
+	background: #cce6ff;
+	width: 63%;
+	height: 140px;
+	line-height: 140px;
+	float: left;
+	text-align: center;
+	margin-right: 10px;
+}
+ol li.heroaction{
+	font-size: 19px;
+	background: #cce6ff;
+	width: 32%;
+	height: 140px;
+	line-height: 140px;
+	float: left;
+	text-align: center;
+}
+#Ad{
+	width: 23%;
+	float: left;
+	text-decoration: none;
+	background: #4da6ff;
+	height: 170px;
+	line-height: 170px;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+#Body{
+	width: 73%;
+	height: 650px;
+	text-decoration: none;
+	float: left;
+	background: #99ccff;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+ol li.Body{
+	font-weight: bold;
+	font-size: 25px;
+}
+ol li.arfeat{
+	background: #cce6ff;
+	width: 30%;
+	height: 600px;
+	line-height: 600px;
+	font-size: 19px;
+	float: left;
+	text-align: center;
+	margin-right: 12px;
+}
+ol li.arlist{
+	background: #cce6ff;
+	width: 65%;
+	height: 600px;
+	line-height: 600px;
+	font-size: 19px;
+	float: left;
+	text-align: center;
+}
+#Sidebar{
+	width: 23%;
+	height: 650px;
+	float: left;
+	text-decoration: none;
+	background: #99ccff;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+ol li.Sidebar{
+	font-weight: bold;
+	font-size: 25px;
+}
+ol li.sidefeat{
+	background: #cce6ff;
+	height: 590px;
+	line-height: 590px;
+	font-size: 19px;
+	text-align: center;
+}
+#foot{
+	width: 97%;
+	background: #99ccff;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-decoration: none;
+}
+ol li.foot{
+	font-weight: bold;
+	background: #99ccff;
+	font-size: 25px;
+}
+@media screen and (max-width: 768px){
+	ol li.herofeature{
+		width: 96%
+	}
+	ol li.heroaction{
+		width: 96%;
+	}
+    ol li.arfeat{
+    	width: 72%;
+    }
+    ol li.ad{
+    	width: 21%;
+    }
+    ol li.arlist{
+    	width: 96%;
+    }
+    ol li.sidefeat{
+    	width: 96%;
+    }
+}   
+@media screen and (max-width: 480px){
+	ol li.heroaction{
+		display: none;
+    }
+} 
